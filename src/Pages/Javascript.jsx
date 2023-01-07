@@ -36,7 +36,7 @@ const Javascript = () => {
    return loading? <h1>Loading...</h1> : (
      <div style={{display:'flex', flexDirection:'column', fontSize:'20px',gap:'20px' ,alignItems:'center',padding:'5px',marginTop:'20px'}}>
  
-     <Heading style={{color:'#aaf36a',width:'200px' , border:'1px dashed red',borderRadius:'10px', padding:'6px'}}>JAVASCRIPT Data</Heading>
+     <Heading style={{color:'#aaf36a',width:'350px' , border:'1px dashed red',borderRadius:'10px', padding:'6px'}}>JAVASCRIPT Data</Heading>
  
      <div style={{display:'grid', gridTemplateColumns:'repeat(4,1fr)',gap:'35px' ,justifyContent:'center',padding:'5px'}}>
        {
